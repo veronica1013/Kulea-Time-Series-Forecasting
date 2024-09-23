@@ -1,0 +1,12 @@
+prefix=d:/kulea_projects/.conda/Library
+exec_prefix=d:/kulea_projects/.conda/Library
+libdir=d:/kulea_projects/.conda/Library/lib
+includedir=d:/kulea_projects/.conda/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 

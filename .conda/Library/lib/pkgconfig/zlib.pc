@@ -1,0 +1,13 @@
+prefix=d:/kulea_projects/.conda/Library
+exec_prefix=d:/kulea_projects/.conda/Library
+libdir=d:/kulea_projects/.conda/Library/lib
+sharedlibdir=d:/kulea_projects/.conda/Library/lib
+includedir=d:/kulea_projects/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
