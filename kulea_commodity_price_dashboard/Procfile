@@ -1,0 +1,1 @@
+web: panel serve --address="0.0.0.0" --port=$PORT maize_dashboard.ipynb --allow-websocket-origin=commodity-price-dashboard-e2888ca91e61.herokuapp.com
