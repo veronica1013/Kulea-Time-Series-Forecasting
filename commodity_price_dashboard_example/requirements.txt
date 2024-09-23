@@ -1,0 +1,11 @@
+bokeh
+hvplot
+ipykernel
+jupyter
+matplotlib
+nbconvert
+numpy
+openpyxl
+pandas
+panel
+scikit-learn

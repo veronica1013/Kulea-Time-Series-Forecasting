@@ -1,0 +1,1 @@
+web: panel serve --address="0.0.0.0" --port=$PORT app.py --allow-websocket-origin=maize-prices-dashboard-41416e40be94.herokuapp.com
